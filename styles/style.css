@@ -411,8 +411,7 @@
 }
 
 .footer__column {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 100px;
 }
 
 .footer__columns {
@@ -420,12 +419,13 @@
   justify-content: flex-end;
 }
 
-.footer__column_content_hours {
+.footer__column footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
-  margin-left: 100px;
+.footer__column footer__column_content_social {
+  display: flex;
+  justify-content: center;
 }
 
 .footer__logo {
